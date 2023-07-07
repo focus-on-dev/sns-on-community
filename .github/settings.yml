@@ -1,13 +1,13 @@
 labels:
   # Issue Forms
   - name: bug-report
-    color: "f7b2c0"
-    description:
+    color: "F9D0C4"
+    description: 不具合報告
 
   - name: feature-request
-    color: "93ea70"
-    description:
+    color: "C5DEF5"
+    description: 新機能の提案・ご要望
 
   - name: help-wanted
-    color: "008672"
-    description:
+    color: "D4C5F9"
+    description: ご質問
