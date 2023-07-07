@@ -1,0 +1,22 @@
+name: "ご質問"
+description: ご質問ありがとうございます！
+labels:
+  - help-wanted
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ご質問ありがとうございます！
+
+  - type: textarea
+    id: abstract
+    attributes:
+      label: 質問内容
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 備考欄
+      description: ご自由に記入ください

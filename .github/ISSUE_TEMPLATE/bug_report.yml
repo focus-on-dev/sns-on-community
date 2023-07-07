@@ -1,0 +1,31 @@
+name: "🐞 不具合の報告"
+description: ご報告ありがとうございます！
+labels:
+  - bug-report
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ご報告ありがとうございます！
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: 不具合の詳細
+      description: 発生した不具合について詳しい手順や内容、OSやブラウザなどご利用環境を入力ください。
+      placeholder: 不具合の詳しい内容
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: 回避策はありますか？
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-comments
+    attributes:
+      label: 備考欄
+      description: ご自由に記入ください

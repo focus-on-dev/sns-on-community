@@ -1,0 +1,13 @@
+labels:
+  # Issue Forms
+  - name: bug-report
+    color: "f7b2c0"
+    description:
+
+  - name: feature-request
+    color: "93ea70"
+    description:
+
+  - name: help-wanted
+    color: "008672"
+    description:

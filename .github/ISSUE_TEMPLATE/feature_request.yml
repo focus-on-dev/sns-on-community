@@ -1,0 +1,39 @@
+name: "🚀 新機能の提案・ご要望"
+description: ご提案ありがとうございます！
+labels:
+  - feature-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ご提案ありがとうございます！
+
+  - type: textarea
+    id: abstract
+    attributes:
+      label: どんな機能・要望ですか？
+      description: |
+        ご要望・新機能について詳しく教えてください！
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: どんな課題を解決しますか？
+      description: |
+        これを思いついたときの困っていたことや背景・状況を教えてください！
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternative
+    attributes:
+      label: 代替えする手段はありますか？
+      description: 今はどうしていますか？
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 備考欄
+      description: ご自由に記入ください
