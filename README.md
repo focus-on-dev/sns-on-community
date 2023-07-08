@@ -1,6 +1,7 @@
 # SNS-on
 
-SNS-on のコミュニティサイトです。
+SNS-on のコミュニティページです。  
+不具合報告・要望・質問はこちらからどうぞ。
 
 [https://sns-on.net](https://sns-on.net)
 
